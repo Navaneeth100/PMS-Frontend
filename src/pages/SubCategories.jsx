@@ -117,7 +117,7 @@ const SubCategories = () => {
 
   if (loading && subCategories.length === 0) {
     return (
-      <div className="d-flex justify-content-center mt-5">
+      <div className="d-flex justify-content-center align-items-center mt-5" style={{ height: '50vh' }}>
         <div className="spinner-border text-primary" role="status">
           <span className="visually-hidden">Loading...</span>
         </div>
